@@ -1,6 +1,6 @@
 # Get Started
 
-[Accessing public datasets in the Cloud Console] (https://cloud.google.com/bigquery/public-data)
+[Accessing public datasets in the Cloud Console](https://cloud.google.com/bigquery/public-data)
 
 Check out our [**Blocks Directory**](https://looker.com/platform/blocks/directory#data) for a full list of data blocks and use cases
 
