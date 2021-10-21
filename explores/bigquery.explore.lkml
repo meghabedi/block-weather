@@ -1,4 +1,4 @@
-include: "bigquery.*.view.lkml"
+include: "/bigquery_views/bigquery.*.view.lkml"
 
 explore: gsod {
   from: bq_gsod

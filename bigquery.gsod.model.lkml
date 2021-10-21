@@ -1,3 +1,3 @@
 connection: "bigquery-public"
 
-include: "bigquery.explore"
+include: "/explores/bigquery.explore"
