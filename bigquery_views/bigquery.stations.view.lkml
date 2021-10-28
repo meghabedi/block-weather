@@ -74,6 +74,7 @@ view: bq_stations {
   dimension: state {
     type: string
     sql: ${TABLE}.state ;;
+    map_layer_name: us_states
   }
 
   measure: count_distinct_station {

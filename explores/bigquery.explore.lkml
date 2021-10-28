@@ -14,7 +14,7 @@ explore: gsod {
     from: bq_stations
     type: left_outer
     relationship: many_to_one
-    sql_on: ${zipcode_station.nearest_station_id} = ${stations.station_id} ;;
+    sql_on: ${gsod.station_id} = ${stations.station_id} ;;
   }
   join: zipcode_county{
     from: bq_zipcode_county
