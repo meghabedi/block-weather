@@ -1,3 +1,4 @@
-connection: "bigquery-public"
+connection: "@{CONNECTION_NAME}"
 
-include: "bigquery.explore"
+include: "/explores/bigquery.explore"
+include: "/dashboards/*.dashboard"
