@@ -1,9 +1,9 @@
 {
-  "label": "CCAI Insights",
+  "label": "Weather",
   "category_label": "Models",
   "branding": {
-    "image_uri": "https://marketplace-api.looker.com/block-icons/ccai_icon.png",
-    "tagline": "CCAI Insights integrates with the Looker Block to aggregate data outside of contact center sources to provide a more holistic view of the business."
+    "image_uri": "https://marketplace-api.looker.com/block-icons/bq_new_icon.png",
+    "tagline": "Explore weather trends from public data sets."
   },
 
   "constants": {
