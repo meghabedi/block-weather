@@ -20,7 +20,7 @@
   },
   "models": [
     {
-      "name": "insights_demo",
+      "name": "bigquery.gsod",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
