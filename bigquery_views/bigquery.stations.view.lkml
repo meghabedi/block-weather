@@ -1,5 +1,5 @@
 view: bq_stations {
-  sql_table_name: `bigquery-public-data.noaa_gsod.stations` ;;
+  sql_table_name: `cloud-training-demos.noaa_gsod.stations` ;;
 
   dimension: station_id {
     primary_key: yes

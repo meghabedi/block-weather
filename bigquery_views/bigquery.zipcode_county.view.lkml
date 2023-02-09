@@ -6,7 +6,7 @@ view: bq_zipcode_county {
     persist_for: "10000 hours"
     sql: SELECT zcta5, state, geoid as county_code  FROM
       (select *,  ROW_NUMBER() OVER (PARTITION BY zcta5 ORDER BY ZPOPPCT DESC) row_num
-      from `looker-datablocks.gsod.zcta_county_map`)
+      from `cloud-training-demos.gsod.zcta_county_map`)
       where row_num = 1;;
   }
 

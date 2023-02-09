@@ -1,5 +1,5 @@
 view: bq_gsod {
-  sql_table_name: `bigquery-public-data.noaa_gsod.gsod*` ;;
+  sql_table_name: `cloud-training-demos.noaa_gsod.gsod*` ;;
 
   dimension: primary_key {
     hidden: yes

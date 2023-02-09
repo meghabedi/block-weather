@@ -9,7 +9,7 @@ view: state_year {
     sql_trigger_value: select count(*) ;;
     sql:
       SELECT distinct year, state
-              FROM `bigquery-public-data.noaa_gsod.gsod*`
+              FROM `cloud-training-demos.noaa_gsod.gsod*`
               CROSS JOIN (
               select state
                 from `lookerdata.weather.zipcode`

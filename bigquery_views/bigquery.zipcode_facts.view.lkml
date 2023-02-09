@@ -1,5 +1,5 @@
 view: bq_zipcode_facts {
-  sql_table_name: `looker-datablocks.gsod.zipcode` ;;
+  sql_table_name: `cloud-training-demos.gsod.zipcode` ;;
 
   dimension: zipcode {
     primary_key: yes
