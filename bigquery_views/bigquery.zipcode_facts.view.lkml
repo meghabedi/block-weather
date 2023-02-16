@@ -1,5 +1,5 @@
 view: bq_zipcode_facts {
-  sql_table_name: `cloud-training-demos.gsod.zipcode` ;;
+  sql_table_name: `cloud-training-demos.noaa_gsod_geo.zipcode` ;;
 
   dimension: zipcode {
     primary_key: yes
