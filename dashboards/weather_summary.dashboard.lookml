@@ -10,7 +10,7 @@
     type: looker_map
     fields: [gsod.total_days_with_rainfall, stations.state]
     filters:
-      gsod.weather_date: 30 days
+      gsod.weather_date: 2023/01/01 to 2023/01/31
     sorts: [gsod.total_days_with_rainfall desc]
     limit: 500
     query_timezone: America/Los_Angeles
