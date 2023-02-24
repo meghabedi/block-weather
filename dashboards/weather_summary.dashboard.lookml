@@ -77,7 +77,7 @@
       gsod.percentile_75_temperature, gsod.max_temperature, gsod.weather_year]
     fill_fields: [gsod.weather_year]
     filters:
-      gsod.weather_date: 30 days
+      gsod.weather_date: 2023/01/01 to 2023/01/31
     sorts: [gsod.weather_year desc]
     limit: 500
     column_limit: 50
@@ -151,7 +151,7 @@
     fill_fields: [gsod.weather_month]
     filters:
       gsod.has_tornado_funnel_cloud: 'Yes'
-      gsod.weather_month: 2 months
+      gsod.weather_month: 2022/12/01 to 2023/01/31
     sorts: [gsod.weather_month desc]
     limit: 500
     column_limit: 50
@@ -232,7 +232,7 @@
     pivots: [gsod.weather_month]
     fill_fields: [gsod.weather_month]
     filters:
-      gsod.weather_month: 2 months
+      gsod.weather_month: 2022/12/01 to 2023/01/31
     sorts: [gsod.weather_month desc]
     limit: 500
     column_limit: 50
@@ -310,7 +310,7 @@
     pivots: [gsod.weather_month]
     fill_fields: [gsod.weather_month]
     filters:
-      gsod.weather_month: 2 months
+      gsod.weather_month: 2022/12/01 to 2023/01/31
     sorts: [gsod.weather_month desc]
     limit: 500
     column_limit: 50
@@ -417,7 +417,7 @@
     fields: [gsod.weather_date, gsod.total_rainfall, gsod.total_snow_inches]
     fill_fields: [gsod.weather_date]
     filters:
-      gsod.weather_date: 30 days
+      gsod.weather_date: 2023/01/01 to 2023/01/31
     sorts: [gsod.weather_date desc]
     limit: 500
     column_limit: 50
@@ -476,7 +476,7 @@
     fields: [gsod.weather_date, gsod.min_temperature, gsod.max_temperature, gsod.average_temperature]
     fill_fields: [gsod.weather_date]
     filters:
-      gsod.weather_date: 30 days
+      gsod.weather_date: 2023/01/01 to 2023/01/31
     sorts: [gsod.weather_date desc]
     limit: 500
     column_limit: 50
@@ -535,7 +535,7 @@
     pivots: [gsod.weather_month]
     fill_fields: [gsod.weather_month]
     filters:
-      gsod.weather_month: 2 months
+      gsod.weather_month: 2022/12/01 to 2023/01/31
     sorts: [gsod.weather_month desc]
     limit: 500
     column_limit: 50
@@ -614,7 +614,7 @@
     type: looker_map
     fields: [stations.state, gsod.total_days_with_snow]
     filters:
-      gsod.weather_date: 30 days
+      gsod.weather_date: 2023/01/01 to 2023/01/31
     sorts: [gsod.total_days_with_snow desc]
     limit: 500
     query_timezone: America/Los_Angeles
